@@ -1,8 +1,7 @@
 body {
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
     background: #222;
@@ -10,14 +9,34 @@ body {
   font-size: 120%;
 }
 
-.card {
+/* nav-bar */
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.cardi {
   background: #003f5c8f;
   color: white;
   padding: 2em;
   border-radius: 30px;
   width: 100%;
   max-width: 420px;
-  margin: 1em;
+  margin: 10rem auto 0rem ;
+  
 }
 
 .search {
@@ -26,7 +45,7 @@ body {
   justify-content: center;
 }
 
-button {
+button.btn {
   margin: 0.5em;
   border-radius: 50%;
   border: none;
@@ -84,3 +103,4 @@ h1.temp {
   top: 0;
   left: 20px;
 }
+
