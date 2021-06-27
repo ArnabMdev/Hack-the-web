@@ -139,3 +139,7 @@ h1.temp {
   left: 20px;
 }
 
+.nav-link:hover{
+  color: #222 !important ;
+}
+
