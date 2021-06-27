@@ -1,3 +1,4 @@
+/* body */
 body {
     display: block;
     justify-content: center;
@@ -54,7 +55,6 @@ body {
     width: 100%;
     max-width: 1000px;
     margin: 7rem auto 3rem ;
-    /* border:solid;      */
     max-height: 750px;
     /* height: 100%; */
     
@@ -68,6 +68,11 @@ body {
 
   }
   
+  a:hover{
+
+    color: rgb(0, 0, 0);
+  }
+
   button.btn {
     margin: 0.5em;
     border-radius: 50%;
@@ -88,13 +93,15 @@ body {
     outline: none;
     padding: 0.4em 1em;
     border-radius: 24px;
-    background: #7c7c7c2b;
+    background: #ffffff2b;
     color: white;
     font-family: inherit;
     font-size: 105%;
     width: calc(100%-100px);
-    /* border:solid;      */
-
+  }
+  
+  input.search-bar::placeholder{
+    color: aliceblue;
   }
   
   button:hover {
