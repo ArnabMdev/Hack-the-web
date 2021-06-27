@@ -17,6 +17,7 @@ let weather = {
       })
       .then((data) => this.displayWeather(data));
   },
+//   displaying weather
   displayWeather: function (data) {
     const { name } = data;
     const { icon, description } = data.weather[0];
@@ -35,6 +36,7 @@ let weather = {
     document.body.style.backgroundImage =
       "url('https://source.unsplash.com/1600x900/?" + description + "')";
   },
+//   getting location
   search: function () {
     this.fetchWeather(document.querySelector(".search-bar").value);
   },
@@ -51,5 +53,5 @@ document
       weather.search();
     }
   });
-
-weather.fetchWeather("Denver");
+// calling initial display data
+weather.fetchWeather("Mumbai");
