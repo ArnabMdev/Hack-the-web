@@ -8,7 +8,7 @@ let weather = {
         .then((response) => response.json())
         .then((data) =>this.displayweather(data));
         },
-
+// displaying data
     displayweather: function(data){
         var name  = data.city.name;
         var temp1 = data.list[0].main.temp;
@@ -98,6 +98,7 @@ let weather = {
         this.fetchWeather(document.querySelector(".search-bar").value);
       },
 };
+    // getting input
 document.querySelector(".search button").addEventListener("click", function () {
     weather.search();
   });
@@ -109,6 +110,7 @@ document.querySelector(".search button").addEventListener("click", function () {
         weather.search();
       }
     });
+// calling initial display data
   
   weather.fetchWeather("Mumbai");
     
