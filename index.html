@@ -19,34 +19,35 @@
 </head>
 
 <body>
+  <!-- navbar -->
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Metero-logical</a>
+      <h1 class="navbar-brand brandt" href="#">Metero-logical</h1>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Current</a>
+            <a class="nav-link" href="index.html">Current</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Hourly</a>
+            <a class="nav-link linkcol" href="hourly.html">Hourly</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Daily</a>
+            <a class="nav-link" href="daily.html">Daily</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-
+<!-- forecast-card -->
   <div class="cardi">
     <div class="search">
       <input type="text" class="search-bar" placeholder="Search">
       <button class="btn">GO</button>
     </div>
-    <div class="weather">
+    <div class="weather loading">
       <h2 class="city">Weather in Mumbai</h2>
       <h1 class="temp">31°C</h1>
       <div class="flex">
