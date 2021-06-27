@@ -41,5 +41,5 @@ document
       weather.search();
     }
   });
-// calling initial display data
+// calling initial display data 
 weather.fetchWeather("Mumbai");
