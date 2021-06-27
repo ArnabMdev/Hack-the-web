@@ -1,0 +1,147 @@
+body {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+      background: #222;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    font-size: 120%;
+  }
+  
+  /* nav-bar */
+  .navbar{
+    padding:0 0 4.5rem;
+    background-color: rgba(0, 0, 0, 0.377);
+  }
+  
+  .navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-toggler{
+    background-color: rgba(102, 107, 107, 0.521) !important;
+  }
+  .nav-item{
+    padding: 0 18px;
+  }
+  
+  .nav-link{
+    font-size: 1.2rem;
+    font-weight: 300;
+    
+  }
+  
+  h1.brandt{
+    font-size: 2.5rem;
+    color: antiquewhite !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  nav .navbar-nav li a{
+    color: white !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+  
+  /* weather-card */
+  .cardi {
+    background: #003f5c8f;
+    color: white;
+    padding: 2em 3em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 7rem auto 3rem ;
+    /* border:solid;      */
+    max-height: 750px;
+    /* height: 100%; */
+    
+    
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  button.btn {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 44px;
+    width: 44px;
+    outline: none;
+    background: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    /* border:solid;      */
+
+  }
+  
+  input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+    width: calc(100%-100px);
+    /* border:solid;      */
+
+  }
+  
+  button:hover {
+    background: #7c7c7c6b;
+  }
+  
+  /* misc */
+  
+  h1.temp1 {
+    margin: 0;
+    margin-bottom: 0.4em;
+  }
+
+  h2.city{
+      margin: 1rem auto;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  .description {
+    text-transform: capitalize;
+    margin-left: 8px;
+  }
+  
+  .col.loading {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+  }
+  
+  .col.loading:after {
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 20px;
+  }
+  
+.col{
+    display: inline-block;
+    padding-bottom: 2rem;
+    margin: 0.5rem 1rem;
+    background-color: #0322308f;
+    border-radius: 20px;
+    /* border :solid; */
+}  
