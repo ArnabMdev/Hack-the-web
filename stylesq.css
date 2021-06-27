@@ -152,3 +152,7 @@ body {
     border-radius: 20px;
     /* border :solid; */
 }  
+
+.nav-link:hover{
+  color: #222 !important ;
+}
